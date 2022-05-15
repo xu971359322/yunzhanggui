@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "a768f60e-0045-4585-bacd-041085a055e7",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "新增会员",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BearereyJpdiI6Im0zTG1Ob3dCMGNtVURHZXRYN0VwNmc9PSIsInZhbHVlIjoiRVhPREdVeDBEdU1SKzE2M1pkRDhpdlZnbHF4ZjBtRzgwS2J5ckFkQU9ZdnNnTjltRFdHbk1lUStvUldqVzU1Uk9DM21hdVNHQzhFOU0xM3NGSUh1cWFmVUl4cDh6bktqS3pEajdHS3ZkMk1XaG5Cdkd2MnFDZHM1clBhS2FFQis1N2VPTUthRXRsVmhUa3cwYVpna1JnPT0iLCJtYWMiOiI4YTlhOTk1ZWMxZmE2NmNlNGJmMzBlNjYyNTc3MjQyNDAyZThiYzAxMjQxZGQ0YTBlODQ5OTFlMzg4YjI0MDQyIn0=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"guest_name\": \"sunsun\",\r\n\t\"sex\": \"\",\r\n\t\"level_id\": \"\",\r\n\t\"phone\": \"15172675676\",\r\n\t\"weixin\": \"\",\r\n\t\"birthday\": \"\",\r\n\t\"remark\": \"\",\r\n\t\"address\": \"\",\r\n\t\"id_num\": \"\",\r\n\t\"id_type\": \"1\",\r\n\t\"vip\": \"\",\r\n\t\"nation\": \"\",\r\n\t\"innid\": \"63594\",\r\n\t\"version\": \"10.10.3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-release-pms.napbee.cn/api/v1/guest/add_member",
+					"protocol": "https",
+					"host": [
+						"api-release-pms",
+						"napbee",
+						"cn"
+					],
+					"path": [
+						"api",
+						"v1",
+						"guest",
+						"add_member"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
